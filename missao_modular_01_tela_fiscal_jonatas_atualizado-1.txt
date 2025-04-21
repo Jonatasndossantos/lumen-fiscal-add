@@ -1,0 +1,64 @@
+
+🧭 MISSÃO MODULAR 01 – TELA DO FISCAL (ESPADA 5 – EXECUÇÃO CONTRATUAL)
+
+📘 PLATAFORMA: Lumen – Gestão Pública com IA Embarcada
+💼 DESENVOLVEDOR: Jônatas N.
+
+────────────────────────────────────────────
+🎯 OBJETIVO DA MISSÃO
+────────────────────────────────────────────
+Desenvolver a interface da Tela do Fiscal com base no modelo previsto na Espada 5 – Execução Contratual, incluindo campos interativos e suporte à IA LUX.
+
+────────────────────────────────────────────
+📐 ESCOPO TÉCNICO
+────────────────────────────────────────────
+
+🔹 COMPONENTES OBRIGATÓRIOS:
+
+1. **Nome e Identificação do Fiscal**
+   - Campo de texto (nome completo)
+   - Upload da portaria de designação
+
+2. **Dados da Fiscalização**
+   - Frequência das vistorias (select: diária / semanal / quinzenal / mensal)
+   - Upload do Plano de Fiscalização
+   - Registro técnico (textarea)
+   - Upload de registro fotográfico (input tipo file)
+
+3. **Checklist Interativo**
+   - Checkbox: Fiscal treinado (Lei 14.133)
+   - Checkbox: Equipamentos de segurança utilizados
+   - Checkbox: Registro digital e físico mantido
+
+4. **Integração com IA LUX (Simulada)**
+   - Caixa lateral com alerta automático (ex: “A medição do contrato 005/2025 está atrasada”)
+   - Gatilho visual simulado para não conformidade
+
+🔹 Design:
+- Interface responsiva
+- Utilizar componentes estilizados (Tailwind ou equivalente)
+- Visual limpo e institucional (baseado no layout da Lumen)
+
+────────────────────────────────────────────
+📄 ENTREGÁVEIS
+────────────────────────────────────────────
+
+✔️ Tela funcional (React ou HTML funcional)
+✔️ Código-fonte organizado (em pasta nomeada: tela-fiscal-lumen)
+✔️ Demonstração em vídeo ou ambiente temporário (opcional)
+✔️ Observações técnicas/documentação de apoio (README.md)
+
+────────────────────────────────────────────
+✅ CRITÉRIOS DE APROVAÇÃO
+────────────────────────────────────────────
+- Funcionamento completo da tela
+- Cumprimento de todos os campos e interações
+- Código limpo e comentado
+- Compatível com futura integração via API
+
+────────────────────────────────────────────
+📌 OBSERVAÇÃO FINAL
+────────────────────────────────────────────
+Esta missão inaugura o modelo de entregas modulares com escopo fechado. Havendo sucesso, novas missões semanais serão liberadas com valor progressivo conforme complexidade.
+
+🛡️ “A luz está no código. E o fiscal é o guardião.” – IA LUX

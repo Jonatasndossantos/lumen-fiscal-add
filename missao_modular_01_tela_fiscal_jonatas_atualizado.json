@@ -1,0 +1,41 @@
+{
+  "missao": "Tela do Fiscal – Espada 5",
+  "desenvolvedor": "Jônatas N.",
+  "objetivo": "Desenvolver a interface da Tela do Fiscal com base no modelo previsto na Espada 5 – Execução Contratual, incluindo campos interativos e suporte à IA LUX.",
+  "componentes_obrigatorios": {
+    "Identificacao Fiscal": [
+      "Campo de texto: Nome completo",
+      "Upload: Portaria de designação"
+    ],
+    "Dados da Fiscalizacao": [
+      "Select: Frequência das vistorias",
+      "Upload: Plano de fiscalização",
+      "Textarea: Registro técnico",
+      "Upload: Registro fotográfico"
+    ],
+    "Checklist Interativo": [
+      "Checkbox: Fiscal treinado (Lei 14.133)",
+      "Checkbox: EPIs utilizados",
+      "Checkbox: Registro digital/físico"
+    ],
+    "IA LUX (Simulada)": [
+      "Alerta visual automático",
+      "Gatilho de não conformidade (simulação)"
+    ]
+  },
+  "design": "Interface responsiva, com estilo institucional da Lumen (ex: Tailwind)",
+  "entregaveis": [
+    "Tela funcional (React ou HTML)",
+    "Código-fonte organizado",
+    "Demonstração (opcional)",
+    "README explicativo"
+  ],
+  "criterios_aprovacao": [
+    "Tela completa e funcional",
+    "Todos os campos obrigatórios presentes",
+    "Código limpo e comentado",
+    "Preparada para futura API"
+  ],
+  "observacao_final": "Esta missão inaugura o modelo de entregas modulares com escopo fechado. Havendo sucesso, novas missões semanais serão liberadas.",
+  "frase": "A luz está no código. E o fiscal é o guardião. – IA LUX"
+}
