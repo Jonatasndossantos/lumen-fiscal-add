@@ -40,8 +40,8 @@ export default function AuthenticatedLayout({ header, children }) {
                                     Arquivos
                                 </NavLink>
                                 <NavLink
-                                    href={route('arquivos.index')}
-                                    active={route().current('arquivos.index')}
+                                    href={route('fiscal.index')}
+                                    active={route().current('fiscal.index')}
                                 >
                                     Fiscal
                                 </NavLink>
@@ -148,6 +148,16 @@ export default function AuthenticatedLayout({ header, children }) {
                             active={route().current('dashboard')}
                         >
                             Dashboard
+                        </ResponsiveNavLink>
+                        <ResponsiveNavLink
+                        >
+                            Arquivos
+                        </ResponsiveNavLink>
+                        <ResponsiveNavLink
+                            href={route('fiscal.index')}
+                            active={route().current('fiscal.index')}
+                        >
+                            Fiscal
                         </ResponsiveNavLink>
                     </div>
 

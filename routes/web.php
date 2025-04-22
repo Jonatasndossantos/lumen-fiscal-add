@@ -1,7 +1,8 @@
 <?php
 
 use App\Http\Controllers\ProfileController; 
-use App\Http\Controllers\ArquivosController; 
+use App\Http\Controllers\ArquivosController;
+use App\Http\Controllers\FiscalController;
 
 use Illuminate\Foundation\Application;
 use Illuminate\Support\Facades\Route;
@@ -32,6 +33,8 @@ Route::middleware('auth')->group(function () {
     
     
     Route::resource('/arquivos', ArquivosController::class);
+    Route::resource('/fiscal', FiscalController::class);
+
 });
 
 

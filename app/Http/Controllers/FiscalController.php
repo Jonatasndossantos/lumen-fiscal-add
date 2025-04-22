@@ -2,21 +2,23 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\Arquivos;
-use App\Http\Requests\StoreArquivosRequest;
-use App\Http\Requests\UpdateArquivosRequest;
+use App\Models\Fiscal;
+use App\Http\Requests\StoreFiscalRequest;
+use App\Http\Requests\UpdateFiscalRequest;
 
 use Inertia\Inertia;
 use Illuminate\Support\Facades\Auth;
 
-class ArquivosController extends Controller
+class FiscalController extends Controller
 {
     /**
      * Display a listing of the resource.
      */
     public function index()
     {
-        
+        return Inertia::render('Fiscal/Index', [
+            'user' => Auth::user(),
+        ]);
     }
 
     /**
@@ -24,13 +26,15 @@ class ArquivosController extends Controller
      */
     public function create()
     {
-        //
+        return Inertia::render('Fiscal/Create', [
+            'user' => Auth::user(),
+        ]);
     }
 
     /**
      * Store a newly created resource in storage.
      */
-    public function store(StoreArquivosRequest $request)
+    public function store(StoreFiscalRequest $request)
     {
         //
     }
@@ -38,7 +42,7 @@ class ArquivosController extends Controller
     /**
      * Display the specified resource.
      */
-    public function show(Arquivos $arquivos)
+    public function show(Fiscal $fiscal)
     {
         //
     }
@@ -46,7 +50,7 @@ class ArquivosController extends Controller
     /**
      * Show the form for editing the specified resource.
      */
-    public function edit(Arquivos $arquivos)
+    public function edit(Fiscal $fiscal)
     {
         //
     }
@@ -54,7 +58,7 @@ class ArquivosController extends Controller
     /**
      * Update the specified resource in storage.
      */
-    public function update(UpdateArquivosRequest $request, Arquivos $arquivos)
+    public function update(UpdateFiscalRequest $request, Fiscal $fiscal)
     {
         //
     }
@@ -62,7 +66,7 @@ class ArquivosController extends Controller
     /**
      * Remove the specified resource from storage.
      */
-    public function destroy(Arquivos $arquivos)
+    public function destroy(Fiscal $fiscal)
     {
         //
     }
