@@ -1,3 +1,84 @@
+# Tela do Fiscal – Plataforma Lumen
+
+![Capa do Projeto](./public/capa-tela-fiscal.png)
+
+![Status](https://img.shields.io/badge/status-finalizado-green)
+![Linguagem](https://img.shields.io/badge/React-18-blue)
+![License](https://img.shields.io/badge/license-MIT-lightgrey)
+![Responsivo](https://img.shields.io/badge/responsivo-100%25-blueviolet)
+
+---
+
+## Índice
+
+- [Descrição do Projeto](#descrição-do-projeto)
+- [Status do Projeto](#status-do-projeto)
+- [Funcionalidades e Demonstração da Aplicação](#funcionalidades-e-demonstração-da-aplicação)
+- [Acesso ao Projeto](#acesso-ao-projeto)
+- [Tecnologias Utilizadas](#tecnologias-utilizadas)
+- [Pessoas Contribuidoras](#pessoas-contribuidoras)
+- [Pessoas Desenvolvedoras do Projeto](#pessoas-desenvolvedoras-do-projeto)
+- [Licença](#licença)
+
+---
+
+## Descrição do Projeto
+
+Este módulo é parte da Plataforma Lumen, voltada à **Gestão Pública com IA embarcada**. A “Tela do Fiscal” permite o registro completo de informações vinculadas à fiscalização de contratos públicos, oferecendo campos para upload de documentos, marcações de checklist e alertas simulados via IA LUX.
+
+---
+
+## Status do Projeto
+
+✅ Concluído  
+Versão: 1.0  
+Aguardando validação e homologação da entrega
+
+---
+
+## Funcionalidades e Demonstração da Aplicação
+
+### Funcionalidades Implementadas:
+
+- [x] Campo para nome do fiscal
+- [x] Upload de portaria de designação
+- [x] Seleção de frequência de fiscalização
+- [x] Upload do plano de fiscalização
+- [x] Área para registro técnico
+- [x] Upload de fotos
+- [x] Checklist com marcações obrigatórias
+- [x] Simulação de alerta via IA LUX (mensagem + botão de fechar)
+
+### Demonstração (vídeo):
+
+> Link do vídeo demonstrativo: [**Clique para assistir**](https://exemplo.com/video-tela-fiscal)
+
+---
+
+## Acesso ao Projeto
+
+### Clone do repositório:
+
+```bash
+git clone https://github.com/jonatasndossantos/lumen-fiscal-add.git
+cd lumen-fiscal-add
+npm install
+npm run dev
+
+```bash 
+pnpm install lucide-react
+```
+
+```bash
+composer install
+php artisan serve
+```
+
+opcional 
+```bash
+npm install --save-dev --save-exact @biomejs/biome
+```
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
