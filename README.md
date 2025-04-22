@@ -13,11 +13,9 @@
 
 - [Descrição do Projeto](#descrição-do-projeto)
 - [Status do Projeto](#status-do-projeto)
-- [Funcionalidades e Demonstração da Aplicação](#funcionalidades-e-demonstração-da-aplicação)
+- [Funcionalidades](#funcionalidades)
 - [Acesso ao Projeto](#acesso-ao-projeto)
 - [Tecnologias Utilizadas](#tecnologias-utilizadas)
-- [Pessoas Contribuidoras](#pessoas-contribuidoras)
-- [Pessoas Desenvolvedoras do Projeto](#pessoas-desenvolvedoras-do-projeto)
 - [Licença](#licença)
 
 ---
@@ -36,7 +34,7 @@ Aguardando validação e homologação da entrega
 
 ---
 
-## Funcionalidades e Demonstração da Aplicação
+## Funcionalidades
 
 ### Funcionalidades Implementadas:
 
@@ -49,13 +47,11 @@ Aguardando validação e homologação da entrega
 - [x] Checklist com marcações obrigatórias
 - [x] Simulação de alerta via IA LUX (mensagem + botão de fechar)
 
-### Demonstração (vídeo):
 
-> Link do vídeo demonstrativo: [**Clique para assistir**](https://exemplo.com/video-tela-fiscal)
-
----
 
 ## Acesso ao Projeto
+
+### Para instruções detalhadas, consulte o [Readme fiscal](/resources/js/Pages/Fiscal/README.md).
 
 ### Clone do repositório:
 
@@ -64,9 +60,6 @@ git clone https://github.com/jonatasndossantos/lumen-fiscal-add.git
 cd lumen-fiscal-add
 npm install
 npm run dev
-
-```bash 
-pnpm install lucide-react
 ```
 
 ```bash
@@ -74,9 +67,15 @@ composer install
 php artisan serve
 ```
 
-opcional 
+### pacotes instalados no projeto:
+biome para padrao de espacaçemnto
 ```bash
 npm install --save-dev --save-exact @biomejs/biome
+```
+
+lucide para icones
+```bash 
+pnpm install lucide-react
 ```
 
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
